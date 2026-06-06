@@ -1,0 +1,24 @@
+token: "8915011918:AAHDoKjWMtolhBS7VQsMHIfNByJ0g-s5_-s"
+
+channel-monitoring:
+  enabled: true
+  chat-id: "-1003930008011"
+  message-id: 5
+  update-interval: 10
+
+messages:
+  online: |
+    🟢 **Статус: Сервер онлайн**
+
+    🌐 IP адрес: `vividness-stuff.gl.joinmc.link`
+    👥 Онлайн: %online% из %max% игроков
+    ⚙️ Версия: 1.21.1
+
+    🧑‍💻 Игроки на сервере:
+    %players%
+
+  offline: |
+    🔴 **Статус: Сервер выключен**
+
+    ⏰ Время работы: с 8:00 до 0:00 по ЕКБ.
+    Сервер отключен или перезагружается.
